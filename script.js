@@ -37,13 +37,7 @@ document.getElementById('orderButton').addEventListener('click', async function(
         foodImage.src = 'https://source.unsplash.com/random/600x400?drink';
       } else if (randomFood === 'Pizza') {
         foodImage.src = 'https://source.unsplash.com/random/600x400?pizza';
-      } else if (randomFood === 'Salad') {
-        foodImage.src = 'https://source.unsplash.com/random/600x400?salad';
-      } else if (randomFood === 'Dessert') {
-        foodImage.src = 'https://source.unsplash.com/random/600x400?dessert';
-      } else {
-        foodImage.src = 'https://source.unsplash.com/random/600x400?food';
-      }
+      } 
       
       foodImage.style.display = 'block';
     } catch (error) {
